@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="mainDiv">
+      <div class="header_div">
+        <header class="divheader1">
+          <h5 class="divheaderh5">Get your dream in a week</h5>
+          <button class="btn">X</button>
+        </header>
+        <div class="divheader2">
+          <div class="header2_1"><img src="./img/logo.png" alt="logo" /></div>
+          <div class="header2_2">
+            <h3 class="pageName">Home</h3>
+            <h3 class="pageName">Propertiyes</h3>
+            <h3 class="pageName">About</h3>
+            <h3 class="pageName">Contact</h3>
+            <h3 class="pageName">
+              <img
+                class="nanimg"
+                src="./img/search.png"
+                width="12"
+                alt="Search"
+              />Search
+            </h3>
+          </div>
+          <div class="header2_3">
+            <button class="FindBtn2">Cart</button>
+            <button class="FindBtn">Find a Property</button>
+          </div>
+        </div>
+        <div class="divheader3">
+          <div class="header3_1">
+            <h4 class="minibtn">Find Your dream place</h4>
+            <h1 class="loremtxt">Find house for your family in minutes</h1>
+            <div class="divform">
+              <h4 class="loremText">
+                Aenean sodales mauris quis tellus facilisis, vel mattis magna.
+                Interdum curabitur eget aliquam elit in mauris purus.
+              </h4>
+              <form class="headerform">
+                <input placeholder="Search" type="text" id="search" />
+                <button class="formbtn">Find Property</button>
+              </form>
+            </div>
+          </div>
+          <div class="header3_2">
+            <img
+              class="nanimg"
+              src="./img/birinchikottarasm.png"
+              alt="bigpng"
+            />
+          </div>
+        </div>
+        <div class="headcl">
+          <div class="head">
+            <h3>As seen on the world's best magazines and media</h3>
+          </div>
+          <img class="Nullimg" src="./img/head.png" alt="bigpng" />
+        </div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var button = document.querySelector(".btn");
+        var header = document.querySelector(".divheader1");
+        button.addEventListener("click", function () {
+          button.style.display = "none";
+          header.style.display = "none";
+        });
+      });
+    </script>
+  </body>
+</html>
